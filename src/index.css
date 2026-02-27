@@ -128,11 +128,10 @@ button {
   padding: 1.5rem 0;
   z-index: 1000;
   transition: var(--transition);
-  background-color: transparent;
+  background-color: var(--primary);
 }
 
 .navbar.scrolled {
-  background-color: var(--primary);
   padding: 0.8rem 0;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
